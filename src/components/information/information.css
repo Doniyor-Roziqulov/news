@@ -1,0 +1,68 @@
+.service-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-card.red {
+  background: linear-gradient(135deg, #d90429, #ff002b);
+  color: white;
+}
+
+.service-card.red h3 {
+  color: white;
+}
+
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #ffcccc;
+  border-radius: 12px;
+  margin: 0 auto 15px;
+}
+
+.service-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 15px;
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+}
+
+.list__text {
+  color: black;
+  font-size: 16px;
+}
+.list__inf:hover {
+  background-color: #d90429;
+}
+
+.list__inf:hover .list__text {
+  color: white;
+}
+
+.list__inf:hover .list__h3 {
+  color: white;
+}

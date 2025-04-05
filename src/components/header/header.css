@@ -1,0 +1,31 @@
+.header_box {
+  padding: 10px;
+}
+
+.header_item {
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header_item-aloqa {
+  background-color: rgb(220, 64, 64);
+  padding: 8px 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header_item-aloqa:hover {
+  background-color: rgb(247, 124, 83);
+}
+
+.header-logo {
+  width: 130px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+}
