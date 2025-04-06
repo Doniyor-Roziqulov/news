@@ -1,4 +1,3 @@
-import './slavery.css'
 import { Collapse } from 'antd'
 
 const text1 = `
@@ -59,17 +58,20 @@ const items = [
 
 const Slavery = () => {
   return (
-    <div className="slavery-container gap-x-[112px] bg-slate-100">
-      <div data-aos="zoom-in" className="video-container w-[630px] h-[640px]">
+    <div className="flex flex-col md:flex-row mx-auto py-[30px] lg:gap-x-[112px] bg-slate-100">
+      <div
+        data-aos="zoom-in"
+        className="w-full md:w-[400px] lg:w-[630px] h-[640px]"
+      >
         <iframe
-          className=" w-[630px] h-[640px]"
+          className="w-full md:w-[400px] lg:w-[630px] h-[400px] lg:h-[640px]"
           src="https://www.youtube.com/embed/5gAab_i-zG4"
           title="YouTube video"
           allowFullScreen
         ></iframe>
       </div>
       <div data-aos="fade-up" className="text-container container">
-        <h2 className="font-normal text-[34px] text-[#123a6d]">
+        <h2 className="font-normal text-[24px] md:text-[34px] text-[#123a6d]">
           Tadqiqot maqolangizni nashr qilishda sizga qanday yordam berishimiz
           mumkin<span className="font-bold">uch oson qadam:</span>
         </h2>

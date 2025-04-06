@@ -27,10 +27,13 @@ const Carousel = () => {
             />
             <div className="absolute inset-0 flex flex-col bg-[#000d] bg-opacity-90 text-white bg-opacity-50">
               <div className="w-[450px] box__carusel">
-                <h2 data-aos="fade-down" className="text-5xl font-bold mb-4">
+                <h2
+                  data-aos="fade-down"
+                  className="text-3xl text-center md:text-5xl font-bold mb-4"
+                >
                   Nashr uchun joy, o'sish uchun joy!
                 </h2>
-                <p data-aos="fade-up" className="text-lg mb-6">
+                <p data-aos="fade-up" className="md:text-lg mb-6">
                   O‘zbekistonda va jahonda innovatsiyalar ombori.
                 </p>
                 <button
@@ -52,10 +55,13 @@ const Carousel = () => {
             />
             <div className="absolute inset-0 flex flex-col bg-[#000d] bg-opacity-90 text-white bg-opacity-50">
               <div className="w-[450px] box__carusel">
-                <h2 data-aos="fade-down" className="text-5xl font-bold mb-4">
+                <h2
+                  data-aos="fade-down"
+                  className="text-3xl text-center md:text-5xl font-bold mb-4"
+                >
                   Nashr uchun joy, o'sish uchun joy!
                 </h2>
-                <p data-aos="fade-up" className="text-lg mb-6">
+                <p data-aos="fade-up" className="md:text-lg mb-6">
                   O‘zbekistonda va jahonda innovatsiyalar ombori.
                 </p>
                 <button
@@ -68,7 +74,6 @@ const Carousel = () => {
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
           <div className="relative w-full h-screen">
             <img
@@ -77,14 +82,17 @@ const Carousel = () => {
               className="w-full object-cover h-full"
             />
             <div className="absolute inset-0 flex flex-col bg-[#000d] bg-opacity-90 text-white bg-opacity-50">
-              <div className="w-[450px] box__carusel">
-                <h2 data-aos="fade-down" className="text-5xl font-bold mb-4">
+              <div className="box__carusel">
+                <h2
+                  data-aos="fade-down"
+                  className="text-3xl text-center md:text-5xl font-bold mb-4"
+                >
                   Nashr uchun joy, o'sish uchun joy!
                 </h2>
-                <p className="text-lg mb-6">
+                <p className="md:text-lg mb-6">
                   O‘zbekistonda va jahonda innovatsiyalar ombori.
                 </p>
-                <button className="bg-red-500 hover:bg-red-400 carusel__btn text-white font-bold py-3 px-10 rounded-lg shadow-lg transition duration-300">
+                <button className="bg-red-500 hover:bg-red-400 px-5 text-white font-bold py-[7px] rounded-lg shadow-lg transition duration-300">
                   Batafsil ma'lumot oling
                 </button>
               </div>

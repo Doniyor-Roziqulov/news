@@ -1,4 +1,4 @@
-import './address.css'
+import { Link } from 'react-router-dom'
 
 const Address = () => {
   return (
@@ -34,8 +34,11 @@ const Address = () => {
                   <h3 className="font-bold text-[20px] text-[#777777] mb-1">
                     Biz bilan bog'lanish
                   </h3>
-                  <a href="mailto:info@academspace.uz" className="text-sm">
-                    info@academspace.uz
+                  <a
+                    href="mailto:academsspaceline@gmail.com"
+                    className="text-sm"
+                  >
+                    academsspaceline@gmail.com
                   </a>
                 </div>
 
@@ -44,12 +47,15 @@ const Address = () => {
                   <h3 className="font-bold text-[20px] text-[#777777] mb-1">
                     Bizga qo'ng'iroq qiling
                   </h3>
-                  <a href="tel:+998951897447" className="text-sm block">
-                    +998 95 189 74 47
+                  <a href="tel:+998994177014" className="text-sm block">
+                    +998 99 417 70 14
                   </a>
-                  <a href="tel:+998884247447" className="text-sm">
-                    +998 88 424 74 47
-                  </a>
+                  <Link to={'tel:+998884247447'} className="text-sm block">
+                    +998 88 496 96 22
+                  </Link>
+                  <Link to={'tel:+998939862200'} className="text-sm">
+                    +998 93 986 22 00
+                  </Link>
                 </div>
               </div>
 

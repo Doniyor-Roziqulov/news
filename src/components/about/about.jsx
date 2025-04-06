@@ -1,36 +1,37 @@
+import { BsEmojiSmile, BsJournals, BsPeople } from 'react-icons/bs'
 import './about.css'
+import { PiHeadsetFill } from 'react-icons/pi'
 const stats = [
   {
     id: 1,
-    icon: '😊',
+    icon: <BsEmojiSmile />,
     value: '232',
     title: 'Hursand mijozlar',
     description: 'va ular bizga ishonishda davom etadilar',
   },
   {
     id: 2,
-    icon: '📄',
+    icon: <BsJournals />,
     value: '521',
     title: "Dunyo bo'ylab omborlarda chop etilgani",
     description: 'ilmiy maqolalar',
   },
   {
     id: 3,
-    icon: '🎧',
+    icon: <PiHeadsetFill />,
     value: '1 463',
     title: 'Maslahat soatlari',
     description: 'Biz mijozlarimizga har tomonlama yordam beramiz',
   },
   {
     id: 4,
-    icon: '👥',
+    icon: <BsPeople />,
     value: '8',
     title: 'Professionallar',
     description:
       'Bizning mutaxassislarimiz har qanday muammoni hal qilishga tayyor',
   },
 ]
-
 const About = () => {
   return (
     <section id="about" className="container" data-aos="fade-up">
@@ -49,7 +50,6 @@ const About = () => {
               ilm-fan va ta’lim rivojiga hissa qo‘shish orqali
               qo‘llab-quvvatlashdir.
             </p>
-
             <ul className="about-list">
               <li>
                 <span>✔</span> Xalqaro mavjudligi.
@@ -62,8 +62,6 @@ const About = () => {
               </li>
             </ul>
           </div>
-
-          {/* O'ng tomondagi matn */}
           <div>
             <p className="about-text">
               Ilk ilmiy ishingizni dunyoning eng yirik omborlarida nashr eting
@@ -77,7 +75,6 @@ const About = () => {
               ishidan ilhom olishingiz mumkin. Bunday platformalarda nashr
               qilish yangi imkoniyatlar yaratadi.
             </p>
-            {/* Tugma */}
             <a href="#" className="about-button">
               Maslahat oling
             </a>
@@ -85,30 +82,25 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className="max-w-6xl about-data  mx-auto py-16 px-4">
+        <div className=" about-data  mx-auto py-16 px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((stat) => (
               <div
                 key={stat.id}
-                className="bg-white shadow-md rounded-2xl p-6 text-center transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300"
+                className="bg-white shadow-md rounded-xl p-6 text-center transition-transform transform hover:-translate-y-2 hover:shadow-xl duration-300"
               >
-                {/* Ikon */}
-                <div className="text-red-500 text-5xl mb-3">{stat.icon}</div>
-
-                {/* Asosiy raqam */}
-                <h2 className="text-5xl font-extrabold text-gray-900">
-                  {stat.value}
-                </h2>
-
-                {/* Sarlavha va tavsif */}
-                <p className="text-lg font-medium text-gray-900 mt-3">
+                <div className="flex items-center gap-x-2.5">
+                  <div className="text-red-500 text-3xl mb-3">{stat.icon}</div>
+                  <h2 className="text-[42px] font-bold text-gray-900 mb-4">
+                    {stat.value}
+                  </h2>
+                </div>
+                <p className="text-[14px] md:text-lg text-start font-medium text-gray-900">
                   {stat.title}
-                  <span className="block text-gray-600 font-normal text-base mt-1">
+                  <span className=" text-gray-600 font-normal text-base mt-1">
                     {stat.description}
                   </span>
                 </p>
-
-                {/* Batafsil ma'lumot */}
                 <a
                   href="#"
                   className="mt-5 inline-block text-blue-900 font-semibold hover:underline transition-colors duration-200"

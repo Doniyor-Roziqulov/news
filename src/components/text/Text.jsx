@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-
-// Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
@@ -41,22 +39,19 @@ const Text = () => {
   }
   return (
     <div className="pt-14 pb-24 bg-slate-200">
-      <div>
-        <div>
-          <p
-            data-aos="fade-up"
-            className="font-medium text-[14px] container text-[#aaaaaa]"
-          >
+      <div className="max-w-7xl mx-auto px-4">
+        <div className=" mb-10">
+          <p data-aos="fade-up" className="font-medium text-sm text-gray-400">
             SHARHLAR
           </p>
-          <h2 data-aos="fade-up" className="container text-4xl font-bold">
+          <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold">
             SHARHLAR
           </h2>
         </div>
+
         <Swiper
           loop={true}
           onSwiper={setSwiperRef}
-          slidesPerView={3}
           centeredSlides={true}
           spaceBetween={30}
           pagination={{
@@ -65,60 +60,54 @@ const Text = () => {
           navigation={false}
           modules={[Pagination, Navigation, Autoplay]}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
-          className="mySwiper bg-slate-200 mt-10"
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
+          className="mySwiper bg-slate-200"
         >
-          <SwiperSlide className="p-8 bg-white shadow-2xl">
-            <div data-aos="fade-up" className="h-[210px]">
-              <strong>Anvar Mahmudov</strong>
-              <p className="text-[#999] font-[14px]">Phd surgeon</p>
-              <p className="italic">
-                " Professionallar jamoasi menga har bir bosqichda - materialni
-                tuzishdan tortib, yakuniy tahrir qilishgacha yordam berishdi.
-                Hammasi yuqori aniqlik va akademik talablarga muvofiq amalga
-                oshirildi. Sifatli va puxta yozilgan dissertatsiya olishni
-                xohlovchilarga tavsiya qilaman!"
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="p-8 bg-white shadow-2xl">
-            <div data-aos="fade-up" className="h-[210px]">
-              <strong> Kamron Gayratov</strong>
-              <p className="text-[#999] font-[14px]">Dizayner</p>
-              <p className="italic">
-                " Men kitob tayyorlash va nashr etish xizmatini so'radim va
-                natija barcha kutganlardan oshib ketdi. Jamoa ishning har bir
-                bosqichiga - tahrirlashdan tortib, muqova dizayni va chop
-                etishgacha e'tibor bilan qaradi. Kitob professional dizayn va
-                yuqori sifatli chop etish bilan ajoyib chiqdi. "
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="p-8 bg-white shadow-2xl">
-            <div data-aos="fade-up" className="h-[210px]">
-              <strong> Jaxongir Anvarov</strong>
-              <p className="text-[#999] font-[14px]">Tadbirkor</p>
-              <p className="italic">
-                " Men transkript yaratish xizmatidan foydalandim va juda xursand
-                bo'ldim. Ish tezda va juda aniqlik bilan yakunlandi. Har bir
-                lahza va tafsilot to'g'ri, buzilmasdan yozib olingan. Zo'r
-                xizmat, men uni yuqori sifatli va professional transkriptlarga
-                muhtoj bo'lgan har bir kishiga tavsiya qilaman!"
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="p-8 bg-white shadow-2xl">
-            <div data-aos="fade-up" className="h-[210px]">
-              <strong> Kamron Gayratov</strong>
-              <p className="text-[#999] font-[14px]">Dizayner</p>
-              <p className="italic">
-                " Men kitob tayyorlash va nashr etish xizmatini so'radim va
-                natija barcha kutganlardan oshib ketdi. Jamoa ishning har bir
-                bosqichiga - tahrirlashdan tortib, muqova dizayni va chop
-                etishgacha e'tibor bilan qaradi. Kitob professional dizayn va
-                yuqori sifatli chop etish bilan ajoyib chiqdi."
-              </p>
-            </div>
-          </SwiperSlide>
+          {[
+            {
+              name: 'Anvar Mahmudov',
+              job: 'Phd surgeon',
+              text: `Professionallar jamoasi menga har bir bosqichda - materialni tuzishdan tortib, yakuniy tahrir qilishgacha yordam berishdi. Hammasi yuqori aniqlik va akademik talablarga muvofiq amalga oshirildi. Sifatli va puxta yozilgan dissertatsiya olishni xohlovchilarga tavsiya qilaman!`,
+            },
+            {
+              name: 'Kamron Gayratov',
+              job: 'Dizayner',
+              text: `Men kitob tayyorlash va nashr etish xizmatini so'radim va natija barcha kutganlardan oshib ketdi. Jamoa ishning har bir bosqichiga - tahrirlashdan tortib, muqova dizayni va chop etishgacha e'tibor bilan qaradi. Kitob professional dizayn va yuqori sifatli chop etish bilan ajoyib chiqdi.`,
+            },
+            {
+              name: 'Jaxongir Anvarov',
+              job: 'Tadbirkor',
+              text: `Men transkript yaratish xizmatidan foydalandim va juda xursand bo'ldim. Ish tezda va juda aniqlik bilan yakunlandi. Har bir lahza va tafsilot to'g'ri, buzilmasdan yozib olingan. Zo'r xizmat, men uni yuqori sifatli va professional transkriptlarga muhtoj bo'lgan har bir kishiga tavsiya qilaman!`,
+            },
+            {
+              name: 'Kamron Gayratov',
+              job: 'Dizayner',
+              text: `Men kitob tayyorlash va nashr etish xizmatini so'radim va natija barcha kutganlardan oshib ketdi. Jamoa ishning har bir bosqichiga - tahrirlashdan tortib, muqova dizayni va chop etishgacha e'tibor bilan qaradi. Kitob professional dizayn va yuqori sifatli chop etish bilan ajoyib chiqdi.`,
+            },
+          ].map((item, index) => (
+            <SwiperSlide key={index} className="p-6 md:p-8 bg-white shadow-2xl">
+              <div data-aos="fade-up" className="h-full flex flex-col gap-3">
+                <strong>{item.name}</strong>
+                <p className="text-gray-500 text-sm">{item.job}</p>
+                <p className="italic text-sm md:text-base text-gray-700">
+                  “ {item.text} ”
+                </p>
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

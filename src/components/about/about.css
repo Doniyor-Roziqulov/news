@@ -1,5 +1,3 @@
-
-/* Kichik sarlavha (Biz Haqimizda) */
 .about-title {
   font-size: 1.125rem; /* 18px */
   font-weight: 600;
@@ -12,7 +10,7 @@
 }
 
 .about-title::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 60px;
   height: 2px;
@@ -20,7 +18,6 @@
   margin-left: 16px;
 }
 
-/* Asosiy sarlavha (BIZ HAQIMIZDA) */
 .about-heading {
   font-size: 2.5rem; /* 40px */
   font-weight: bolder;
@@ -29,7 +26,6 @@
   margin-bottom: 24px;
 }
 
-/* 2 ustunli grid */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -42,7 +38,6 @@
   }
 }
 
-/* Matn */
 .about-text {
   font-size: 1rem; /* 16px */
   font-weight: 400;
@@ -50,7 +45,6 @@
   line-height: 1.8;
 }
 
-/* Ro‘yxat */
 .about-list {
   list-style: none;
   padding: 0;
@@ -73,7 +67,6 @@
   margin-right: 8px;
 }
 
-/* Tugma */
 .about-button {
   display: inline-block;
   border: 2px solid #ef4444;
@@ -85,6 +78,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
   text-decoration: none;
+  margin-top: 15px;
 }
 
 .about-button:hover {

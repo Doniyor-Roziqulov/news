@@ -12,15 +12,15 @@ const Footer = () => {
           <p className="text-gray-300 mt-2">
             O‘zbekiston, Toshkent sh., Beruniy 35
           </p>
-          <p className="mt-2">
-            <strong>Telefon:</strong> +998 95 189 74 47
-          </p>
-          <p>
-            <strong>Telefon:</strong> +998 88 424 74 47
-          </p>
-          <p>
-            <strong>Email:</strong> info@academspace.uz
-          </p>
+          <a href="tel:+998884969622" className="mt-2">
+            <strong>Telefon:</strong> +998 88 496 96 22
+          </a>
+          <a href="tel:+998994177014">
+            <strong>Telefon:</strong> +998 99 417 70 14
+          </a>
+          <a href="mailto:academsspaceline@gmail.com">
+            <strong>Email:</strong> academsspaceline@gmail.com
+          </a>
 
           <div className="flex gap-3 mt-4">
             <a href="#" className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600">
@@ -29,7 +29,10 @@ const Footer = () => {
             <a href="#" className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600">
               <FaInstagram className="text-white" />
             </a>
-            <a href="#" className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600">
+            <a
+              href="https://t.me/academsspaceline"
+              className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600"
+            >
               <FaTelegramPlane className="text-white" />
             </a>
           </div>
@@ -84,12 +87,6 @@ const Footer = () => {
         <br />
         Designed by <span className="text-red-500">Montero UZB</span>
       </div>
-
-      {/* <div className="fixed bottom-5 right-5">
-        <button className="bg-red-600 p-3 rounded text-white hover:bg-red-700">
-          ↑
-        </button>
-      </div> */}
     </footer>
   )
 }
