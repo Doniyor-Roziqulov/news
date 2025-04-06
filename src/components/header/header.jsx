@@ -28,19 +28,29 @@ const Header = () => {
               }`}
             >
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a href="#hero">Bosh sahifa</a>
+                <a onClick={() => setData(false)} href="#hero">
+                  Bosh sahifa
+                </a>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a href="#about">Biz haqimizda</a>
+                <a onClick={() => setData(false)} href="#about">
+                  Biz haqimizda
+                </a>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a href="#servis">Bizning xizmatlarimiz</a>
+                <a onClick={() => setData(false)} href="#servis">
+                  Bizning xizmatlarimiz
+                </a>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a href="#contact">Kontaktlar</a>
+                <a onClick={() => setData(false)} href="#contact">
+                  Kontaktlar
+                </a>
               </li>
               <li className="text-gray-700 header_item-aloqa hover:text-red-600">
-                <a href="#hero">Biz bilan bog'lanish</a>
+                <a onClick={() => setData(false)} href="#hero">
+                  Biz bilan bog'lanish
+                </a>
               </li>
               {/* <li className="text-gray-700 header_item ">
                 <select className="bg-white  px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600">
