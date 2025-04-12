@@ -70,12 +70,12 @@ const About = () => {
               ochiq qilish uchun xalqaro platformalarda baham koʻring.
             </p>
             <p className="about-text">
-              Academ Space olimlar hamjamiyatiga qoʻshiling, u yerda siz nafaqat
-              oʻz yutuqlaringiz bilan oʻrtoqlashishingiz, balki boshqalarning
-              ishidan ilhom olishingiz mumkin. Bunday platformalarda nashr
-              qilish yangi imkoniyatlar yaratadi.
+              Academs Space olimlar hamjamiyatiga qoʻshiling, u yerda siz
+              nafaqat oʻz yutuqlaringiz bilan oʻrtoqlashishingiz, balki
+              boshqalarning ishidan ilhom olishingiz mumkin. Bunday
+              platformalarda nashr qilish yangi imkoniyatlar yaratadi.
             </p>
-            <a href="#" className="about-button">
+            <a href="#contact" className="about-button">
               Maslahat oling
             </a>
           </div>
@@ -102,7 +102,7 @@ const About = () => {
                   </span>
                 </p>
                 <a
-                  href="#"
+                  href="#contact"
                   className="mt-5 inline-block text-blue-900 font-semibold hover:underline transition-colors duration-200"
                 >
                   Batafsil ma'lumot oling »

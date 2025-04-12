@@ -25,7 +25,7 @@ const Address = () => {
                     target="_blank"
                     className="text-sm text-gray-600"
                   >
-                    O'zbekiston, Toshkent sh., Beruniy 35
+                    O'zbekiston, Toshkent sh., Sirg'ali t.,8-mavzesi 75-uy
                   </a>
                 </div>
 
@@ -47,15 +47,15 @@ const Address = () => {
                   <h3 className="font-bold text-[20px] text-[#777777] mb-1">
                     Bizga qo'ng'iroq qiling
                   </h3>
-                  <a href="tel:+998994177014" className="text-sm block">
-                    +998 99 417 70 14
-                  </a>
-                  <Link to={'tel:+998884247447'} className="text-sm block">
-                    +998 88 496 96 22
-                  </Link>
                   <Link to={'tel:+998939862200'} className="text-sm">
                     +998 93 986 22 00
                   </Link>
+                  <Link to={'tel:+998884247447'} className="text-sm block">
+                    +998 88 496 96 22
+                  </Link>
+                  <a href="tel:+998994177014" className="text-sm block">
+                    +998 99 417 70 14
+                  </a>
                 </div>
               </div>
 

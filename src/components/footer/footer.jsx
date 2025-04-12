@@ -10,7 +10,7 @@ const Footer = () => {
             Nashr qilish uchun joy, o‘sish uchun xona!
           </p>
           <p className="text-gray-300 mt-2">
-            O‘zbekiston, Toshkent sh., Beruniy 35
+            O'zbekiston, Toshkent sh., Sirg'ali t.,8-mavzesi 75-uy
           </p>
           <a href="tel:+998884969622" className="mt-2">
             <strong>Telefon:</strong> +998 88 496 96 22
@@ -79,13 +79,6 @@ const Footer = () => {
             </button>
           </form>
         </div>
-      </div>
-
-      <div className="text-center text-gray-400 mt-8 border-t border-gray-700 pt-4">
-        © Copyright <strong className="text-white">Multi</strong>. All Rights
-        Reserved
-        <br />
-        Designed by <span className="text-red-500">Montero UZB</span>
       </div>
     </footer>
   )

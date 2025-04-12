@@ -10,9 +10,12 @@ const Artecil = () => {
             Dissertatsiyangiz dunyoning eng nufuzli omborlarida chop etilishini
             xohlaysizmi?
           </p>
-          <button className="border border-red-500 text-white px-12 py-2 rounded-[4px] hover:bg-red-500 transition">
+          <a
+            href="#contact"
+            className="border border-red-500 text-white px-12 py-2 rounded-[4px] hover:bg-red-500 transition"
+          >
             Maslahat oling
-          </button>
+          </a>
         </div>
       </div>
     </>

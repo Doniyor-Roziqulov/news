@@ -73,7 +73,7 @@ const Slavery = () => {
       <div data-aos="fade-up" className="text-container container">
         <h2 className="font-normal text-[24px] md:text-[34px] text-[#123a6d]">
           Tadqiqot maqolangizni nashr qilishda sizga qanday yordam berishimiz
-          mumkin<span className="font-bold">uch oson qadam:</span>
+          mumkin<span className="font-bold block">Uch oson qadam:</span>
         </h2>
         <Collapse defaultActiveKey={['1']} accordion items={items} />
       </div>
