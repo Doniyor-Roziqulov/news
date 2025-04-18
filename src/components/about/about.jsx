@@ -5,28 +5,28 @@ const stats = [
   {
     id: 1,
     icon: <BsEmojiSmile />,
-    value: '232',
+    value: '180',
     title: 'Hursand mijozlar',
     description: 'va ular bizga ishonishda davom etadilar',
   },
   {
     id: 2,
     icon: <BsJournals />,
-    value: '521',
+    value: '400',
     title: "Dunyo bo'ylab omborlarda chop etilgani",
     description: 'ilmiy maqolalar',
   },
   {
     id: 3,
     icon: <PiHeadsetFill />,
-    value: '1 463',
+    value: '1 112',
     title: 'Maslahat soatlari',
     description: 'Biz mijozlarimizga har tomonlama yordam beramiz',
   },
   {
     id: 4,
     icon: <BsPeople />,
-    value: '8',
+    value: '15',
     title: 'Professionallar',
     description:
       'Bizning mutaxassislarimiz har qanday muammoni hal qilishga tayyor',

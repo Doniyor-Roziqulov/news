@@ -78,22 +78,22 @@ const Text = () => {
         >
           {[
             {
-              name: 'Anvar Mahmudov',
+              name: 'Dostonbek Rahmatullayev',
               job: 'Phd surgeon',
               text: `Professionallar jamoasi menga har bir bosqichda - materialni tuzishdan tortib, yakuniy tahrir qilishgacha yordam berishdi. Hammasi yuqori aniqlik va akademik talablarga muvofiq amalga oshirildi. Sifatli va puxta yozilgan dissertatsiya olishni xohlovchilarga tavsiya qilaman!`,
             },
             {
-              name: 'Kamron Gayratov',
+              name: `Doniyor Ro'ziqulov`,
               job: 'Dizayner',
               text: `Men kitob tayyorlash va nashr etish xizmatini so'radim va natija barcha kutganlardan oshib ketdi. Jamoa ishning har bir bosqichiga - tahrirlashdan tortib, muqova dizayni va chop etishgacha e'tibor bilan qaradi. Kitob professional dizayn va yuqori sifatli chop etish bilan ajoyib chiqdi.`,
             },
             {
-              name: 'Jaxongir Anvarov',
+              name: 'Laziz Usmonov',
               job: 'Tadbirkor',
               text: `Men transkript yaratish xizmatidan foydalandim va juda xursand bo'ldim. Ish tezda va juda aniqlik bilan yakunlandi. Har bir lahza va tafsilot to'g'ri, buzilmasdan yozib olingan. Zo'r xizmat, men uni yuqori sifatli va professional transkriptlarga muhtoj bo'lgan har bir kishiga tavsiya qilaman!`,
             },
             {
-              name: 'Kamron Gayratov',
+              name: 'Sardor Najmiddinov',
               job: 'Dizayner',
               text: `Men kitob tayyorlash va nashr etish xizmatini so'radim va natija barcha kutganlardan oshib ketdi. Jamoa ishning har bir bosqichiga - tahrirlashdan tortib, muqova dizayni va chop etishgacha e'tibor bilan qaradi. Kitob professional dizayn va yuqori sifatli chop etish bilan ajoyib chiqdi.`,
             },

@@ -36,12 +36,12 @@ const Carousel = () => {
                 <p data-aos="fade-up" className="md:text-lg mb-6">
                   O‘zbekistonda va jahonda innovatsiyalar ombori.
                 </p>
-                <button
-                  data-aos="fade-up"
-                  className="bg-red-500 hover:bg-red-400 carusel__btn text-white font-bold py-3 px-10 rounded-lg shadow-lg transition duration-300"
+                <a
+                  href="#contact"
+                  className="bg-red-500 hover:bg-red-400 px-5 text-white font-bold py-[7px] rounded-lg shadow-lg transition duration-300"
                 >
                   Batafsil ma'lumot oling
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -64,12 +64,12 @@ const Carousel = () => {
                 <p data-aos="fade-up" className="md:text-lg mb-6">
                   O‘zbekistonda va jahonda innovatsiyalar ombori.
                 </p>
-                <button
-                  data-aos="fade-up"
-                  className="bg-red-500 hover:bg-red-400 carusel__btn text-white font-bold py-3 px-10 rounded-lg shadow-lg transition duration-300"
+                <a
+                  href="#contact"
+                  className="bg-red-500 hover:bg-red-400 px-5 text-white font-bold py-[7px] rounded-lg shadow-lg transition duration-300"
                 >
                   Batafsil ma'lumot oling
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -92,9 +92,12 @@ const Carousel = () => {
                 <p className="md:text-lg mb-6">
                   O‘zbekistonda va jahonda innovatsiyalar ombori.
                 </p>
-                <button className="bg-red-500 hover:bg-red-400 px-5 text-white font-bold py-[7px] rounded-lg shadow-lg transition duration-300">
+                <a
+                  href="#contact"
+                  className="bg-red-500 hover:bg-red-400 px-5 text-white font-bold py-[7px] rounded-lg shadow-lg transition duration-300"
+                >
                   Batafsil ma'lumot oling
-                </button>
+                </a>
               </div>
             </div>
           </div>

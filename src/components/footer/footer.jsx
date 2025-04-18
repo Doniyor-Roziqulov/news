@@ -51,9 +51,19 @@ const Footer = () => {
                 Biz haqimizda
               </a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#servis" className="text-white hover:text-red-500">
                 Bizning xizmatlarimiz
+              </a>
+            </li>
+            <li className="mb-4">
+              <a href="" className="text-white hover:text-red-500">
+                Nashr qilingan kitoblar
+              </a>
+            </li>
+            <li>
+              <a href="" className="text-white hover:text-red-500">
+                Jurnallar
               </a>
             </li>
           </ul>
