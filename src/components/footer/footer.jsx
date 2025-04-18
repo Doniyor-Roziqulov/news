@@ -23,13 +23,15 @@ const Footer = () => {
           </a>
 
           <div className="flex gap-3 mt-4">
-            <a href="#" className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600">
-              <FaFacebookF className="text-white" />
-            </a>
-            <a href="#" className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/academs_spaceline/"
+              className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600"
+            >
               <FaInstagram className="text-white" />
             </a>
             <a
+              target="_blank"
               href="https://t.me/academsspaceline"
               className="bg-[#1a1f2e] p-2 rounded hover:bg-red-600"
             >
