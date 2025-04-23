@@ -5,7 +5,7 @@ const services = [
     id: 1,
     title: 'Kitob nashr etish',
     description:
-      "Hikoyangizni sahifalarda jonlantirish uchun biz kitob nashr qilish xizmatlarining to'liq spektrini taklif qilamiz, jumladan tahrirlash, dizayn va chop etish.(SBN,KBK,UDK)",
+      "Hikoyangizni sahifalarda jonlantirish uchun biz kitob nashr qilish xizmatlarining to'liq spektrini taklif qilamiz, jumladan tahrirlash, dizayn va chop etish.(ISBN,KBK,UDK)",
     icon: '/icons/book.svg',
     isHighlighted: true,
   },
@@ -45,7 +45,7 @@ const services = [
     id: 6,
     title: 'Monografiyalar yaratish',
     description:
-      "Biz ilmiy nashrlarning yuqori sifati va talablariga muvofiqligini ta'minlagan holda maqola tayyorlash va tahrirlash xizmatlarini taqdim etamiz.",
+      "Biz ilmiy nashrlarning yuqori sifati va talablariga muvofiqligini ta'minlagan holda monografiyalarni tayyorlash va tahrirlash xizmatlarini taqdim etamiz.",
     icon: '/icons/transcript.svg',
     isHighlighted: false,
   },
