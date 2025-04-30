@@ -1,16 +1,11 @@
-import Headers from './components/header/header'
-import Carousel from './components/hero/carousel'
-import Slavery from './components/slavery/slavery'
-import About from './components/about/about'
-import Information from './components/information/information'
-import Text from './components/text/Text'
-import Artecil from './components/artecil/artecil'
-import Address from './components/address/address'
-import Footer from './components/footer/footer'
+import Layout from './pages/layout/Layout.jsx'
+import Home from './components/home/Home.jsx'
+import Jurnals from './components/jurnals/jurnals.jsx'
 import './App.css'
 import Aos from 'aos'
 import '../node_modules/aos/dist/aos.css'
 import { useEffect, useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000 })
@@ -39,17 +34,12 @@ function App() {
   }, [])
   return (
     <>
-      <Headers />
-      <main className="mt-8">
-        <Carousel />
-        <About />
-        <Slavery />
-        <Information />
-        <Text />
-        <Artecil />
-        <Address />
-        <Footer />
-      </main>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="" element={<Home />} />
+          <Route path="jurnals" element={<Jurnals />} />
+        </Route>
+      </Routes>
       {visible && (
         <button
           onClick={scrollToTop}

@@ -48,7 +48,7 @@ const Header = () => {
                 </a>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a onClick={() => setData(false)} href="#contact">
+                <a onClick={() => setData(false)} href="/jurnals">
                   Jurnallar
                 </a>
               </li>

@@ -1,4 +1,5 @@
 import { Collapse } from 'antd'
+import img from '../../../public/1111.jpg'
 
 const text1 = `
  - Formatlash: Biz sizning ishingiz tanlangan omborning barcha formatlash talablariga, jumladan, iqtiboslar uslubiga, jadval va grafiklar taqdimotiga javob berishini ta'minlaymiz.
@@ -63,12 +64,11 @@ const Slavery = () => {
         data-aos="zoom-in"
         className="w-full md:w-[400px] lg:w-[630px] h-[640px]"
       >
-        <iframe
-          className="w-full md:w-[400px] lg:w-[630px] h-[400px] lg:h-[640px]"
-          src="https://www.youtube.com/embed/5gAab_i-zG4"
-          title="YouTube video"
-          allowFullScreen
-        ></iframe>
+        <img
+          className="w-full md:w-[400px] lg:w-[630px] h-[400px] lg:h-[450px]"
+          src={img}
+          alt=""
+        />
       </div>
       <div data-aos="fade-up" className="text-container container">
         <h2 className="font-normal text-[24px] md:text-[34px] text-[#123a6d]">

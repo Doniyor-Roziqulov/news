@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#071527] text-white py-10 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-[#05101e] flex flex-col items-center py-[30px] px-[20px] border-t-4 border-[#e5132c]">
-          <h2 className="text-xl font-semibold">Academ Space</h2>
+          <h2 className="text-xl font-semibold">Academs Space</h2>
           <p className="italic text-gray-400 mt-1">
             Nashr qilish uchun joy, o‘sish uchun xona!
           </p>
