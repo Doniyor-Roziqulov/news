@@ -1,6 +1,6 @@
 import Layout from './pages/layout/Layout.jsx'
 import Home from './components/home/Home.jsx'
-import Jurnals from './components/jurnals/jurnals.jsx'
+import Jurnalss from './components/jurnals/jurnals.jsx'
 import './App.css'
 import Aos from 'aos'
 import '../node_modules/aos/dist/aos.css'
@@ -37,7 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<Home />} />
-          <Route path="jurnals" element={<Jurnals />} />
+          <Route path="jurnals" element={<Jurnalss />} />
         </Route>
       </Routes>
       {visible && (
