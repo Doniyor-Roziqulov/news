@@ -6,6 +6,8 @@ import Aos from 'aos'
 import '../node_modules/aos/dist/aos.css'
 import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import ScrollToHashElement from './ScrollToHashElement'
+
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000 })
@@ -32,11 +34,13 @@ function App() {
     window.addEventListener('scroll', toggleVisibility)
     return () => window.removeEventListener('scroll', toggleVisibility)
   }, [])
+
   return (
     <>
+      <ScrollToHashElement />
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="jurnals" element={<Jurnalss />} />
         </Route>
       </Routes>

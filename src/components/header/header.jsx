@@ -28,24 +28,24 @@ const Header = () => {
               }`}
             >
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a onClick={() => setData(false)} href="#hero">
+                <Link onClick={() => setData(false)} to="//">
                   Bosh sahifa
-                </a>
+                </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a onClick={() => setData(false)} href="#about">
+                <Link onClick={() => setData(false)} to="/#about">
                   Biz haqimizda
-                </a>
+                </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a onClick={() => setData(false)} href="#servis">
+                <Link onClick={() => setData(false)} to="/#servis">
                   Bizning xizmatlarimiz
-                </a>
+                </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a onClick={() => setData(false)} href="#contact">
+                <Link onClick={() => setData(false)} to="/#contact">
                   Nashr qilingan kitoblar
-                </a>
+                </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
                 <Link onClick={() => setData(false)} to="/jurnals">
@@ -53,14 +53,14 @@ const Header = () => {
                 </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <a onClick={() => setData(false)} href="#contact">
+                <Link onClick={() => setData(false)} to="/#contact">
                   Kontaktlar
-                </a>
+                </Link>
               </li>
               <li className="text-gray-700 header_item-aloqa hover:text-red-600">
-                <a onClick={() => setData(false)} href="#hero">
+                <Link onClick={() => setData(false)} to="/#hero">
                   Biz bilan bog'lanish
-                </a>
+                </Link>
               </li>
               {/* <li className="text-gray-700 header_item ">
                 <select className="bg-white  px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600">
