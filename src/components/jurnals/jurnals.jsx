@@ -22,7 +22,7 @@ const jurnals = () => {
             <p className="text-2xl">Academs Space PDF</p>
           </a>
         </div>
-        <ul className="flex justify-between gap-x-3 items-center">
+        {/* <ul className="flex justify-between gap-x-3 items-center">
           <li className="border border-black">
             <img className="w-[130px] lg:w-[280px]" src={book1} alt="" />
           </li>
@@ -38,7 +38,7 @@ const jurnals = () => {
           <li className="border border-black">
             <img className="w-[130px] lg:w-[280px]" src={book5} alt="" />
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   )

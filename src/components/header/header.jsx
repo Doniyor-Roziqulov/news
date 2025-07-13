@@ -43,14 +43,41 @@ const Header = () => {
                 </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <Link onClick={() => setData(false)} to="/#contact">
+                <Link onClick={() => setData(false)} to="/publishers">
                   Nashr qilingan kitoblar
                 </Link>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
-                <Link onClick={() => setData(false)} to="/jurnals">
-                  Jurnallar
-                </Link>
+                <div className="relative group inline-block">
+                  <Link
+                    onClick={() => setData(false)}
+                    to="/jurnals"
+                    className="text-black px-4 py-2"
+                  >
+                    Jurnallar
+                  </Link>
+
+                  <div
+                    className="absolute border border-black left-0 top-full mt-1 hidden group-hover:block group-focus-within:block bg-white shadow-lg rounded z-10"
+                    onMouseEnter={() => {}}
+                    onMouseLeave={() => {}}
+                  >
+                    <div className="flex flex-col p-2 min-w-[140px]">
+                      <Link
+                        to="/nashir"
+                        className="py-1 px-2 hover:bg-gray-100 rounded"
+                      >
+                        Nashir
+                      </Link>
+                      <Link
+                        to="/kitoblar"
+                        className="py-1 px-2 hover:bg-gray-100 rounded"
+                      >
+                        Kitoblar
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li className="text-gray-700 px-[15px] md:px-[10px] text-[15px] font-medium md:text-[14px] min-[880px]:text-[15px] hover:text-red-600 lg:text-[15px] lg:px-[15px]">
                 <Link onClick={() => setData(false)} to="/#contact">

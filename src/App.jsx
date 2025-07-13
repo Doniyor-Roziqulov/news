@@ -7,6 +7,7 @@ import '../node_modules/aos/dist/aos.css'
 import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import ScrollToHashElement from './ScrollToHashElement'
+import Nashirs from './components/nashirs/Nashirs.jsx'
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="publishers" element={<Nashirs />} />
           <Route path="jurnals" element={<Jurnalss />} />
         </Route>
       </Routes>
