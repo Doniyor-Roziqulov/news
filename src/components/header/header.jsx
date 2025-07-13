@@ -67,13 +67,13 @@ const Header = () => {
                         to="/nashir"
                         className="py-1 px-2 hover:bg-gray-100 rounded"
                       >
-                        Nashir
+                        Yangi jurnallar
                       </Link>
                       <Link
                         to="/kitoblar"
                         className="py-1 px-2 hover:bg-gray-100 rounded"
                       >
-                        Kitoblar
+                        Arxiv jurnallar
                       </Link>
                     </div>
                   </div>
