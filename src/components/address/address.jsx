@@ -47,9 +47,6 @@ const Address = () => {
                   <h3 className="font-bold text-[20px] text-[#777777] mb-1">
                     Bizga qo'ng'iroq qiling
                   </h3>
-                  <Link to={'tel:+998939862200'} className="text-sm">
-                    +998 93 986 22 00
-                  </Link>
                   <Link to={'tel:+998884247447'} className="text-sm block">
                     +998 88 496 96 22
                   </Link>

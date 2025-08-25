@@ -51,7 +51,6 @@ const Header = () => {
                 <div className="relative group inline-block">
                   <Link
                     onClick={() => setData(false)}
-                    to="/jurnals"
                     className="text-black px-4 py-2"
                   >
                     Jurnallar
@@ -65,13 +64,13 @@ const Header = () => {
                     <div className="flex flex-col p-2 min-w-[140px]">
                       <Link
                         to="/nashir"
-                        className="py-1 px-2 hover:bg-gray-100 rounded"
+                        className="py-1 px-2 hover:bg-gray-100 rounded text-[14px]"
                       >
-                        Yangi jurnallar
+                        Jurnallar haqida
                       </Link>
                       <Link
-                        to="/kitoblar"
-                        className="py-1 px-2 hover:bg-gray-100 rounded"
+                        to="/jurnals"
+                        className="py-1 px-2 hover:bg-gray-100 rounded text-[14px]"
                       >
                         Arxiv jurnallar
                       </Link>

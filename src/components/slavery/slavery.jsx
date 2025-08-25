@@ -1,5 +1,5 @@
 import { Collapse } from 'antd'
-import img from '../../../public/1111.jpg'
+import img from '../images/bg1.jpg'
 
 const text1 = `
  - Formatlash: Biz sizning ishingiz tanlangan omborning barcha formatlash talablariga, jumladan, iqtiboslar uslubiga, jadval va grafiklar taqdimotiga javob berishini ta'minlaymiz.
