@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import ScrollToHashElement from './ScrollToHashElement'
 import Nashirs from './components/nashirs/Nashirs.jsx'
+import Haqida from './components/haqida/Haqida.jsx'
 
 function App() {
   useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="publishers" element={<Nashirs />} />
+          <Route path="nashir" element={<Haqida />} />
           <Route path="jurnals" element={<Jurnalss />} />
         </Route>
       </Routes>
