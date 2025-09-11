@@ -3,13 +3,35 @@ import React from 'react'
 const Haqida = () => {
   return (
     <div className="my-[20px]">
-      <div className="max-w-4xl mx-auto p-6 bg-white rounded-2xl shadow-md">
-        <h1 className="text-2xl font-semibold mb-4">
-          “Academs Space” xalqaro ilmiy jurnaliga qabul qilingan maqolalar
+      <div className="max-w-4xl mx-auto p-6 bg-white rounded-2xl shadow-md space-y-6">
+        <h1 className="text-2xl font-semibold">
+          “Academs Space Line” nashriyoti
         </h1>
-        <p className="mb-4 leading-relaxed">
-          “Academs Space” xalqaro ilmiy jurnaliga qabul qilingan maqolalarga{' '}
-          <strong>5 ish kunida DOI raqam olinadi</strong> va
+        <div className="space-y-1">
+          <p>
+            <strong>Tasischisi:</strong> Xursanoy Toshmurodova
+          </p>
+          <p>
+            <strong>Director:</strong> Shohzod Meyliyev
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-medium mb-2">Ilmiy jurnal a’zolari:</h2>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Tahrirchi: Sakina To‘xtamisheva</li>
+            <li>Dizayner: Navro‘zbek Tursunov</li>
+            <li>Tarjimon: Dilfuza Normatova</li>
+            <li>Chop etuvchi: Bektosh Voxidov</li>
+            <li>SMM menejer: Abrorbek Abdulazizov</li>
+            <li>Texnik xodim: Doston Rahmatullayev</li>
+            <li>Texnik xodim: Jasurbek Rahmatullayev</li>
+          </ul>
+        </div>
+
+        <p>
+          “Academs Space Line” xalqaro ilmiy jurnaliga qabul qilingan
+          maqolalarga <strong>5 ish kunida DOI raqam olinadi</strong> va
           <strong>
             {' '}
             Index Copernicus, Zenodo, OpenAire, Cyberleninka, Google Scholar
@@ -20,15 +42,14 @@ const Haqida = () => {
           </a>{' '}
           ga joylanadi.
         </p>
-        <p className="mb-6">
-          “Academs Space” xalqaro ilmiy jurnali quyidagi yoʻnalishlar boʻyicha
-          maqolalar qabul qiladi:
-        </p>
-        <div className="space-y-6">
+
+        <div className="space-y-4">
+          <h2 className="text-xl font-medium">
+            “Academs Space” xalqaro ilmiy jurnali quyidagi yoʻnalishlar boʻyicha
+            maqolalar qabul qiladi:
+          </h2>
           <section>
-            <h2 className="text-xl font-medium mb-2">
-              “Academs Space” xalqaro ilmiy jurnali A seriya:
-            </h2>
+            <h3 className="font-semibold mb-1">A seriya:</h3>
             <ul className="list-disc pl-6">
               <li>01.00.00 FIZIKA-MATEMATIKA fanlari</li>
               <li>02.00.00 KIMYO fanlari</li>
@@ -36,11 +57,8 @@ const Haqida = () => {
               <li>08.00.00 IQTISODIYOT fanlari</li>
             </ul>
           </section>
-
           <section>
-            <h2 className="text-xl font-medium mb-2">
-              “Academ Space” xalqaro ilmiy jurnali B seriya:
-            </h2>
+            <h3 className="font-semibold mb-1">B seriya:</h3>
             <ul className="list-disc pl-6">
               <li>09.00.00 FALSAFA fanlari</li>
               <li>10.00.00 FILOLOGIYA fanlari</li>
@@ -49,11 +67,8 @@ const Haqida = () => {
               <li>22.00.00 SOTSIOLOGIYA fanlari</li>
             </ul>
           </section>
-
           <section>
-            <h2 className="text-xl font-medium mb-2">
-              “Academ Space” xalqaro ilmiy jurnali C seriya:
-            </h2>
+            <h3 className="font-semibold mb-1">C seriya:</h3>
             <ul className="list-disc pl-6">
               <li>04.00.00 GEOLOGIYA va MINERALOGIYA fanlari</li>
               <li>07.00.00 TARIX fanlari</li>
@@ -63,11 +78,8 @@ const Haqida = () => {
               <li>18.00.00 ARXITEKTURA fanlari</li>
             </ul>
           </section>
-
           <section>
-            <h2 className="text-xl font-medium mb-2">
-              “Academ Space” xalqaro ilmiy jurnali D seriya:
-            </h2>
+            <h3 className="font-semibold mb-1">D seriya:</h3>
             <ul className="list-disc pl-6">
               <li>03.00.00 BIOLOGIYA fanlari</li>
               <li>06.00.00 QISHLOQ XOʻJALIGI fanlari</li>
@@ -77,7 +89,8 @@ const Haqida = () => {
             </ul>
           </section>
         </div>
-        <div className="mt-8 space-y-3">
+
+        <div className="space-y-2">
           <p>
             <strong>Maqolalarni qabul qilish muddati:</strong> Har oyning
             25-sanasiga qadar.
@@ -124,7 +137,8 @@ const Haqida = () => {
             tarqatiladi.
           </p>
         </div>
-        <div className="mt-8">
+
+        <div>
           <h2 className="text-xl font-semibold mb-3">
             TAQDIM ETILADIGAN MAQOLALARGA QOʻYILADIGAN TALABLAR
           </h2>
@@ -175,12 +189,12 @@ const Haqida = () => {
           <p className="mt-2">
             <strong>Murojaat uchun telefon raqami:</strong> +998 88 496 9622
           </p>
+        </div>
 
-          <p className="mt-4">
-            Taqdim etilgan maqola qabul qilingandan soʻng, bitta maqola uchun{' '}
-            <strong>300 000 soʻm</strong> toʻlov olinadi.
-          </p>
-        </div>{' '}
+        <p className="mt-4">
+          Taqdim etilgan maqola qabul qilingandan soʻng, bitta maqola uchun{' '}
+          <strong>300 000 soʻm</strong> toʻlov olinadi.
+        </p>
       </div>
     </div>
   )
